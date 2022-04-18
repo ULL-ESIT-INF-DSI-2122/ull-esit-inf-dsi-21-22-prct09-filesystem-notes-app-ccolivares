@@ -1,10 +1,10 @@
 import 'mocha';
 import { expect } from 'chai';
-import { Reduce } from "../src/reduce"
-import { AddReduce } from "../src/addreduce";
-import { SubReduce } from "../src/subreduce";
-import { ProdReduce } from "../src/prodreduce";
-import { DivReduce } from "../src/divreduce";
+import { Reduce } from "../../src/PE-102/reduce"
+import { AddReduce } from "../../src/PE-102/addreduce";
+import { SubReduce } from "../../src/PE-102/subreduce";
+import { ProdReduce } from "../../src/PE-102/prodreduce";
+import { DivReduce } from "../../src/PE-102/divreduce";
 
 let addreduce = new AddReduce([1, 2, 3]);
 let subreduce = new SubReduce([1, 2, 3]);
